@@ -1,0 +1,9 @@
+let movie = ["a", "b", "c"]
+let rank = prompt("등급을 입력해주세요")
+
+if (rank == "A")
+    console.log(movie)
+else if(rank == "B")
+    console.log(movie[0], movie[1])
+else
+    console.log(movie[2])
